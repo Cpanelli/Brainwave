@@ -21,7 +21,7 @@ const Button = ({ className, href, onClick, children, px, white }) => {
       {ButtonSvg(white)}
     </a>
   )
-  return href
+  return renderButton();
 };
 
 export default Button;
